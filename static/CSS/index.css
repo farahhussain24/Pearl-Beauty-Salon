@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Secular+One&display=swap');
+
+/* font-family: 'Secular One', sans-serif; */
+/* font-family: 'Signika Negative', sans-serif;*/
+
+/* Navigation styling */
+.navbar{
+    background-color:#FA0648;
+}
+
+.navbar a{
+    color: hsl(0, 0%, 100%);
+
+}
+.nav-item{
+    padding: 0px 17px;
+    font-size: 17px;
+    font-family: 'Secular One', sans-serif;
+    transition: ease-in;
+    
+}
+.nav-item a:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+
+form .btn{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+form .btn:hover{
+    background-color: #FA0648;
+    border: 2px solid #FA0648;
+}
+
+#card-title{
+    font-weight: bold;
+    font-size: 34px;
+    color: #FA0648;
+}
+
+.card{
+    cursor: pointer;
+}
+
+/* Carousel styling */
+.carousel-item img {
+   opacity: 0.9; 
+  }
+
+.carousel-inner{
+    max-height: 87vh !important;
+}
+
+.carousel-caption{
+    font-family: 'Playfair Display', serif;
+    position: fixed;
+    right: 15%;
+    top: 13.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: rgb(0, 0, 0)!important;
+    text-align: center;
+    font-size: 45px!important;
+    line-height: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    transition: ease-in;
+}
+
+/* About Section */
+#about-container{
+    height: 50vh!important;   
+}
+
+#about-body{
+    border: none;
+}
+
+.aboutBtn{
+    font-family: 'Secular One', sans-serif;
+    text-decoration: none;
+    border: 2px solid black;
+    width: 17%;
+    margin: auto;
+    color: black;
+    /* border-radius: 70%; */
+    cursor: pointer;
+}
+.aboutBtn:hover{
+    background-color: #FA0648;
+    color: white;
+}
+
+.adminbtn{
+    background-color: #FA0648;
+    color: white;
+    border: #FA0648;
+}
+
+.adminbtn:hover{
+    color: goldenrod;
+    
+    
+}
+.LogInBtn{
+    color: black;
+}
+.adminModalLabel{
+    display: block;
+    margin-left: 45%;
+    
+}
+
+
+
+
+
+
+#card-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 2.5rem;
+}
+
+#about-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+}
+
+/* Card Groups */
+.card{
+    padding: 20px;
+    
+
+}
+.card-img{
+    top: 75vh;
+}
+
+.card-img-top:hover{
+    box-shadow: 5px 10px #888888;
+}
+
+
+/* Expert Section */
+.card.mb-3{
+    border: none;
+}
+#expert-body h5{
+    font-family: 'Playfair Display', serif;
+    animation-name: text-color;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes text-color {
+    0%{color: rgb(255, 255, 255); font-size: 50px;}
+    25%{color: rgb(53, 235, 226); font-size: 50px;}
+    50%{color: rgb(124, 247, 54); font-size: 50px;}
+    75%{color: rgb(220, 233, 34); font-size: 50px;}   
+    100%{color: rgb(248, 167, 167); font-size: 50px;}   
+}
+#expert-body p{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 1.5rem;
+    
+}
+
+/* Testimonials Section */
+section {
+    display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.section-header{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 17px;
+    color: rgb(2, 2, 2);
+}
+.section-header:after{
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: #fff;
+}
+.section-header span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+.single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 3px solid #FA0648;
+}
+.content{
+    font-size: 18px;
+}
+.content p {
+	text-align: justify;
+}
+.content p span {
+	font-size: 48px;
+	margin-right: 20px;
+    color: #FA0648;
+}
+.socials i {
+	margin-right: 25px;
+}
+.bio h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: transparent;
+}
+
+

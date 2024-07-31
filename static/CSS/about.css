@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Secular+One&display=swap');
+/* font-family: 'Signika Negative', sans-serif;*/
+
+
+/* Cover Section Styling */
+#cover{
+    background-image: url("../img/random5.jpg");
+    display:flex ;
+    height: 70vh;
+    background-position: center;
+    align-items:center ;
+    justify-content: center;
+}
+
+#cover h3{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#cover h3 span{
+    font-size: 2.3rem;
+    font-weight: bold;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+/* Team Section Styling */
+#team{
+    display:flex ;
+    height: 15vh;
+    align-items:center ;
+    justify-content: center;
+}
+#team h3{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+
+
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+.name{
+  /* min-height: 100%; */
+  /* overflow: hidden; */
+  color: brown;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.line-1{
+    position: relative;
+    top: 10%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
